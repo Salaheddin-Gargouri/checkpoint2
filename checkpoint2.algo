@@ -1,0 +1,32 @@
+ALGORITHM
+VAR
+  arr1:array of INTEGER
+  arr2:array of INTEGER
+  som:intiger
+  i:intijer
+  j:intiger
+
+BEGIN
+som=0
+
+for i FROM 0 to arr2.lenght
+  for j FROM 0 to arr1.length
+   if (arr1[j]<>arr2[i]) then 
+     som=som+ arr2[i].
+   end if 
+  end for
+end for
+for j FROM 0 to arr1.length
+  for i FROM 0 to arr2.lenght
+    if (arr1[j]<>arr2[i]) then 
+     som=som+ arr1[j].
+    end if 
+  end for
+end for
+
+
+
+
+
+
+
